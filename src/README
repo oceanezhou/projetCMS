@@ -1,0 +1,68 @@
+Mise en place MVC
+
+
+Ref :
+
+- PDF du cours
+- https://coderedirect.com/questions/2022/folder-structure-of-a-php-mvc-framework-am-i-doing-this-right
+- a old github repo https://github.com/jimmiw/php-mvc-base/tree/master/app 
+
+
+
+- .gitignore
+- index.php
+- src/
+    - app/
+        - modules/
+            - default/
+                - controllers/
+                - models/
+                - views/
+            - admin/
+                - controllers/
+                - models/
+                - views/
+    - config/
+        - config.php
+        - autoloader.php
+        - routes.php
+    - lib/
+        - library/
+    - data/
+        - db.sql
+        OR
+        - database/
+    - .htaccess
+- public/
+    - css
+    - img
+    - scripts
+
+
+--------
+OR
+--------
+
+
+- .gitignore
+- index.php
+- src/
+    - app/
+        - controllers/
+        - models/
+        - views/
+    - config/
+        - config.php
+        - autoloader.php
+        - routes.php
+    - lib/
+        - library/
+    - data/
+        - db.sql
+        OR
+        - database/
+    - web/
+        - css
+        - img
+        - scripts
+    - .htaccess

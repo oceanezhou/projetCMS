@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+
+<!-- //FrontEnd -->
+
+
+<route action="index" controller="FrontController" p=""/>
+
+<route action="show" controller="FrontController" p="article" params="id"/>
+
+<!-- //Admin -->
+
+
+<route action="index" controller="AdminController" p="admin"/>
+
+<route action="postComments" controller="AdminController" p="post-comments"/>
+
+<route action="deleteComments" controller="AdminController" p="delete-comments" params="id"/>
+
+<route action="writePost" controller="AdminController" p="write-article"/>
+
+<route action="deletePost" controller="AdminController" p="delete-article" params="id"/>
+
+<route action="updatePost" controller="AdminController" p="update-article" params="id"/>
+
+<route action="userlist" controller="AdminController" p="userlist"/>
+
+<!-- Security -->
+
+
+<route action="login" controller="SecurityController" p="login"/>
+
+<route action="logout" controller="SecurityController" p="logout"/>
+
+<route action="signup" controller="SecurityController" p="signup"/>
+
+<route action="updateUser" controller="SecurityController" p="update-user" params="id"/>
+
+<route action="deleteUser" controller="SecurityController" p="delete-user" params="id"/>
+
+</routes>

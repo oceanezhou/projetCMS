@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+
+#Chargement du module
+LoadModule rewrite_module modules/mod_rewrite.so
+
+# Configuration + Activation du module Rewrite pour URL
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# RewriteCond %{REQUEST_URI}
+# RewriteCond %{REQUEST_URI}
+
+# Rule / HTTPS
+RewriteRule ^(.*)$ index.php/$1 [NC,L] 
+# Les drapeaux : https://httpd.apache.org/docs/2.4/fr/rewrite/flags.html
+# NC : nocase
+# L : last
+# PT : passthrough
+
+</IfModule>
