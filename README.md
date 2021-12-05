@@ -2,6 +2,13 @@
 
 #### Océane ZHOU / Quentin HUBER
 
+Plusieurs problèmes : 
+
+- Docker pas compatible sur Windows Famille ... meme en regardant les tutos, j'ai touché au BIOS pour activer la virtualisation mais toujours rien, mon WSL reste bloqué à 1 malgré la mise la commande en powershell pour passer en 2.
+- Git push Logon failed, use ctrl+c to cancel basic credential prompt 
+- La wifi (plus de 4G)
+- Problèmes de DB
+
 -----
 
 ### Architecture MVC du projet
