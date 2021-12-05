@@ -1,8 +1,12 @@
 # projetCMS
 
+#### Océane ZHOU / Quentin HUBER
+
 -----
 
 ### Architecture MVC du projet
+
+-----
 
 .gitignore
 - admin/
