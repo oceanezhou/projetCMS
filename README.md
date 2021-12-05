@@ -1,5 +1,9 @@
 # projetCMS
 
+-----
+
+### Architecture MVC du projet
+
 .gitignore
 - admin/
     - .htaccess
