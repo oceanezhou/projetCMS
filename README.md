@@ -1,11 +1,11 @@
 # projetCMS
 
 .gitignore
-admin/
+- admin/
     - .htaccess
     - .htpasswd
     - README
-src/
+- src/
     - app/
         - controllers/
 		- controller.php
